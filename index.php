@@ -33,6 +33,7 @@ $is_logged_in = (isset($_SESSION["logged_in"]) && $_SESSION["logged_in"]);
 <body>
 
 <section class="box">
+    <div></div>
  <h1>Todo</h1>
 <?php
 $hash = password_hash("Otto", null);
